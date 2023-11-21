@@ -41,6 +41,6 @@ components= {
   }
 }
 
- security_groups  = ["sg-0dee954b08055e577"]
- zone_id = "Z0021413JFIQEJP9ZO9Z"
+ security_groups  = [""sg-00f89e3d7e55eac8b""]
+ zone_id = "Z05703682PRJCSXIZAED6"
 
