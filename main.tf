@@ -1,4 +1,4 @@
- module "components" {
+ module "components" {1
    source  = "git ::https://github.com/BhanuSaiReddy/tf-module-basic.git"
   for_each = var.components
 
