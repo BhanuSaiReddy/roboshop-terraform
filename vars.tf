@@ -1,5 +1,2 @@
-variable "components" {}
+variable "vpc" {}
 
-variable "security_groups" {}
-
-variable "zone_id" {}
