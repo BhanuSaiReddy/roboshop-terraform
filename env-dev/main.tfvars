@@ -17,5 +17,3 @@ vpc = {
     }
   }
 }
-//noinspection TFVARSIncorrectElement
-#default_vpc_id = "vpc-0ac23efe0a1686041"
