@@ -8,7 +8,8 @@ output "vpc" {
 
 resource "null_resource" "dev_resource" {
   provisioner "local-exec" {
-    command = "echo -e '\e[34mDEV SETUP COMPLETED SUCCESSFULLY\e[0m'"
+    command = "echo -e '\\x1b[34mDEV SETUP COMPLETED SUCCESSFULLY\\x1b[0m'"
   }
 }
+
 
