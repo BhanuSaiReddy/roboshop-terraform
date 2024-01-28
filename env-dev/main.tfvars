@@ -1,3 +1,18 @@
+default_vpc_id = "vpc-0ac23efe0a1686041"
+default_vpc_cidr = "172.31.0.0/16"
+default_vpc_route_table_id = "rtb-0829bc0acb0a245ac"
+zone_id = "Z05703682PRJCSXIZAED6"
+env = "dev"
+
+
+tags = {
+  company_name = "ABC Tech"
+  business_unit = "Ecommerce"
+  project_name = "robotshop"
+  cost_center = "ecom_rs"
+  created_by = "terraform"
+}
+
 vpc = {
   main = {
     cidr = "10.0.0.0/16"
@@ -17,23 +32,6 @@ vpc = {
     }
   }
 }
-
-
-
-default_vpc_id = "vpc-0ac23efe0a1686041"
-default_vpc_cidr = "172.31.0.0/16"
-default_vpc_route_table_id = "rtb-0829bc0acb0a245ac"
-
-
-tags = {
-  company_name = "ABC Tech"
-  business_unit = "Ecommerce"
-  project_name = "robotshop"
-  cost_center = "ecom_rs"
-  created_by = "terraform"
-}
-
-env = "dev"
 
 
 alb = {
