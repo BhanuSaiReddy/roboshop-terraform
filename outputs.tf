@@ -18,4 +18,8 @@ resource "null_resource" "dev_resource" {
   }
 }
 
+output "alb" {
+  value = module.alb
+}
+
 
