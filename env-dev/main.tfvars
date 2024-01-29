@@ -105,20 +105,20 @@ rabbitmq = {
 }
 
  apps = {
-  frontend = {
-    instance_type = "t3.micro"
-    port = 80
-    desired_capacity   = 1
-    max_size           = 3
-    min_size           = 1
-  }
+   frontend = {
+     instance_type    = "t3.micro"
+     port             = 80
+     desired_capacity = 1
+     max_size         = 3
+     min_size         = 1
+   }
    catalogue = {
-     instance_type = "t3.micro"
-     port = 8080
-     desired_capacity   = 1
-     max_size           = 3
-     min_size           = 1
-}
+     instance_type    = "t3.micro"
+     port             = 8080
+     desired_capacity = 1
+     max_size         = 3
+     min_size         = 1
+   }
    user = {
      instance_type    = "t3.micro"
      port             = 8080
@@ -151,3 +151,4 @@ rabbitmq = {
      min_size         = 1
 
    }
+ }
