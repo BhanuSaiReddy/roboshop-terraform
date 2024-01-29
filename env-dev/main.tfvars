@@ -111,6 +111,7 @@ rabbitmq = {
      desired_capacity = 1
      max_size         = 3
      min_size         = 1
+     lb_priority = 1
    }
    catalogue = {
      instance_type    = "t3.micro"
@@ -118,6 +119,7 @@ rabbitmq = {
      desired_capacity = 1
      max_size         = 3
      min_size         = 1
+     lb_priority = 2
    }
    user = {
      instance_type    = "t3.micro"
@@ -125,6 +127,7 @@ rabbitmq = {
      desired_capacity = 1
      max_size         = 3
      min_size         = 1
+     lb_priority = 3
 
    }
    cart = {
@@ -133,6 +136,7 @@ rabbitmq = {
      desired_capacity = 1
      max_size         = 3
      min_size         = 1
+     lb_priority = 4
 
    }
    payment = {
@@ -141,6 +145,7 @@ rabbitmq = {
      desired_capacity = 1
      max_size         = 3
      min_size         = 1
+     lb_priority = 5
    }
 
    shipping = {
@@ -149,5 +154,6 @@ rabbitmq = {
      desired_capacity = 1
      max_size         = 3
      min_size         = 1
+     lb_priority = 6
    }
  }
