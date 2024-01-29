@@ -3,7 +3,8 @@ output "vpc" {
 }
 
 
-
-
+output "alb" {
+  value = module.alb
+}
 
 
