@@ -116,7 +116,7 @@ module "app" {
 
 
   for_each = var.apps
-  component = each.name
+  component = each.key
   port = each.value["port"]
 
 
