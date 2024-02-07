@@ -14,6 +14,8 @@ tags = {
   created_by = "terraform"
 }
 
+az = ["us-east-1a", "us-east-1b"]
+
 vpc = {
   main = {
     cidr = "10.0.0.0/16"
