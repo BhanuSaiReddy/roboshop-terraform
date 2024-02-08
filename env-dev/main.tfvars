@@ -3,7 +3,7 @@ default_vpc_cidr = "172.31.0.0/16"
 default_vpc_route_table_id = "rtb-0829bc0acb0a245ac"
 zone_id = "Z05703682PRJCSXIZAED6"
 env = "dev"
-ssh_ingress_cidr = ["172.31.32.47/32"]
+ssh_ingress_cidr = ["172.31.27.197/32"]
 
 
 tags = {
