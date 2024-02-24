@@ -115,6 +115,7 @@ rabbitmq = {
      min_size         = 1
      lb_priority = 1
      lb_type = "public"
+     parameters = []
    }
    catalogue = {
      instance_type    = "t3.micro"
@@ -124,6 +125,7 @@ rabbitmq = {
      min_size         = 1
      lb_priority = 2
      lb_type = "private"
+     parameters = ["docdb"]
    }
    user = {
      instance_type    = "t3.micro"
@@ -133,6 +135,7 @@ rabbitmq = {
      min_size         = 1
      lb_priority = 3
      lb_type = "private"
+     parameters = ["docdb"]
 
    }
    cart = {
@@ -143,6 +146,7 @@ rabbitmq = {
      min_size         = 1
      lb_priority = 4
      lb_type = "private"
+     parameters = []
 
    }
    payment = {
@@ -153,6 +157,7 @@ rabbitmq = {
      min_size         = 1
      lb_priority = 5
      lb_type = "private"
+     parameters = []
    }
 
    shipping = {
@@ -163,5 +168,6 @@ rabbitmq = {
      min_size         = 1
      lb_priority = 6
      lb_type = "private"
+     parameters = []
    }
  }
