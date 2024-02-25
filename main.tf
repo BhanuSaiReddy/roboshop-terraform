@@ -115,6 +115,7 @@ module "app" {
   ssh_ingress_cidr = var.ssh_ingress_cidr
   default_vpc_id = var.default_vpc_id
   az  = var.az
+  monitoring_ingress_cidr = var.monitoring_ingress_cidr
 
 
 
